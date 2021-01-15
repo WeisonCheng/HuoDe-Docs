@@ -133,7 +133,8 @@ reStructuredText 中有很多种链接，都是用下划线结尾的。
 
 
 
-.. image::  E:\\GitHub\\HuoDe-Docs\\source\\Images\\me.jpg
+.. image::  Images\\me.jpg
+
 
 
 
