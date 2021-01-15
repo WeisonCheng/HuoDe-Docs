@@ -1,9 +1,8 @@
 LearningRst
 =================================
  ​
- .. toctree::
+.. toctree::
     :maxdepth: 2
-    :caption: Contents:
 
     春/contents
     夏/contents
