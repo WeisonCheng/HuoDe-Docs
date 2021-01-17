@@ -1,6 +1,7 @@
 {
     "restructuredtext.confPath": "${workspaceFolder}\\source",
     "python.pythonPath": "C:\\Users\\76592\\AppData\\Local\\Programs\\Python\\Python36\\python.exe",
+    "editor.fontFamily": "'Sarasa Mono SC'",
     "editor.detectIndentation": false,
     "editor.insertSpaces": true,
     "editor.tabSize": 4,

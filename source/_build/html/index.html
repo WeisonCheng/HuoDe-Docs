@@ -225,22 +225,28 @@
 <p>例子：<a class="reference external" href="http://www.bary.com">Bary.com</a></p>
 <p>用尖括号包裹网址，放在文本后面（注意隔一个空格），用一对反引号包裹它们，切记结尾跟一个下划线。</p>
 <p>在这里，反引号就是引号，它包裹住你想转换的内容，下划线是转换成链接的意思，reStructuredText 中有很多种链接，都是用下划线结尾的。</p>
-<p>你可以看到每一级标题都会变成一个“锚”，也就是你可以创建一个跳转此位置的链接。比如我创建一个锚文本直接跳转到 <a href="#id13"><span class="problematic" id="id14">超链接_</span></a> 这个标题下。由于超链接这三个字中没有空格，直接跟一个 _ 会转换“超链接”这三个字为链接，并搜索本文内的标题，指向它。</p>
+<p>你可以看到每一级标题都会变成一个“锚”，也就是你可以创建一个跳转此位置的链接。比如我创建一个锚文本直接跳转到 <a href="#id14"><span class="problematic" id="id15">超链接_</span></a> 这个标题下。由于超链接这三个字中没有空格，直接跟一个 _ 会转换“超链接”这三个字为链接，并搜索本文内的标题，指向它。</p>
 <p>有时候你碰巧需要写_，但“有时候你碰巧需要写”不是标题，这时候 reStructuredText
 依然会尝试搜索标题，搜不到就报错，所以你需要用到转义符号 \。</p>
 <p>前面的例子没有用反引号，是因为“超链接”这三个字之间没有空格，如果你某一个标题是带空格的，那么就需要用反引号括起来。当然我推荐你任何时候都使用反引号，记忆负担小。</p>
-<p>所以最佳实践是<a href="#id15"><span class="problematic" id="id16">`超链接`_</span></a>这样使用。</p>
+<p>所以最佳实践是<a href="#id16"><span class="problematic" id="id17">`超链接`_</span></a>这样使用。</p>
 </div>
 <div class="section" id="id12">
 <h1>中场休息<a class="headerlink" href="#id12" title="永久链接至标题">¶</a></h1>
 <p>现在你会看到，标题、段落、列表是块级元素，自成一级，超链接是行内元素，它可以放到其它元素的行内。</p>
-<p>注意这个概念，下文的<a href="#id17"><span class="problematic" id="id18">`代码`_</span></a>和<a href="#id19"><span class="problematic" id="id20">`图片`_</span></a>部分都会用到。</p>
+<p>注意这个概念，下文的<a href="#id18"><span class="problematic" id="id19">`代码`_</span></a>和<a href="#id20"><span class="problematic" id="id21">`图片`_</span></a>部分都会用到。</p>
+</div>
+<div class="section" id="id13">
+<h1>图像显示<a class="headerlink" href="#id13" title="永久链接至标题">¶</a></h1>
 <img alt="_images/me.jpg" src="_images/me.jpg" />
+<p><em>斜体</em></p>
+<p><strong>加粗</strong></p>
+<p><code class="docutils literal notranslate"><span class="pre">Code</span> <span class="pre">Sytle</span></code></p>
 <div class="toctree-wrapper compound">
 <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="LearningRst/index.html">LearningRst</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="LearningRst/%E6%98%A5/contents.html">春季</a></li>
+<li class="toctree-l2"><a class="reference internal" href="LearningRst/%E6%98%A5/contents.html">落标机构通讯协议</a></li>
 <li class="toctree-l2"><a class="reference internal" href="LearningRst/%E5%A4%8F/contents.html">夏季</a></li>
 <li class="toctree-l2"><a class="reference internal" href="LearningRst/%E7%A7%8B/contents.html">秋季</a></li>
 <li class="toctree-l2"><a class="reference internal" href="LearningRst/%E5%86%AC/contents.html">冬季</a></li>
